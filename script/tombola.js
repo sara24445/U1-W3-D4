@@ -1,7 +1,3 @@
-let button = document.getElementById('draw')
-let drawNumbers = []
-const maxNumbers = 76
-
 const dNumbers = () => {
   if (drawNumbers.lenght >= maxNumbers) {
     alert('tutti numeri sono stati estratti')
