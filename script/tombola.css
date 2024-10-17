@@ -1,0 +1,47 @@
+h1 {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin: 1em 0;
+  margin-right: 20px;
+  color: rgb(160, 83, 83);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(238, 215, 205);
+}
+
+#tabellone {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(10, 50px);
+  gap: 5px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid rgb(160, 83, 83);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(160, 83, 83);
+}
+
+button {
+  margin-top: 20px;
+  background-color: #fff;
+  color: rgb(160, 83, 83);
+  border: 5pt;
+  border-color: rgb(160, 83, 83);
+}
+.evidenziata {
+  background-color: #ffd700; /* Colore giallo per l'evidenziazione */
+}
